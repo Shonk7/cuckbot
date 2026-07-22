@@ -29,7 +29,7 @@ void setup() {
   pinMode(TRIG_L, OUTPUT); pinMode(ECHO_L, INPUT);
   pinMode(TRIG_R, OUTPUT); pinMode(ECHO_R, INPUT);
   pinMode(LINE, INPUT);
-  delay(5000);   // comp rule start delay, don't remove
+  //delay(5000);   // comp rule start delay, don't remove
 }
 
 void loop() {
